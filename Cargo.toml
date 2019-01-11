@@ -74,7 +74,7 @@ jsonwebtoken = "5.0.1"
 u2f = "0.1.4"
 
 # Yubico Library
-yubico = { version = "=0.4.0", features = ["online"], default-features = false, optional = true }
+yubico = { git = "https://github.com/uiri/yubico-rs", features = ["online"], default-features = false, optional = true }
 
 # A `dotenv` implementation for Rust
 dotenv = { version = "0.13.0", default-features = false }
